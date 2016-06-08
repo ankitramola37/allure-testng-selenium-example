@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.166 sec <<< FAILURE!
+multiplyTwoNumbers(com.allure.test.AddTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: multiplication result is wrong expected:<10> but was:<5>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at com.allure.test.AddTest.multiplyTwoNumbers(AddTest.java:20)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.allure.test.LoginTest">
+        <methods>
+          <include name="kill"/>
+        </methods>
+      </class> <!-- com.allure.test.LoginTest -->
+      <class name="com.allure.test.AddTest">
+        <methods>
+          <include name="multiplyTwoNumbers"/>
+        </methods>
+      </class> <!-- com.allure.test.AddTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

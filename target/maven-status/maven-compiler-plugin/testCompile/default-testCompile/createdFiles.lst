@@ -1,0 +1,4 @@
+com/allure/helper/CommonHelper.class
+com/allure/common/Base.class
+com/allure/test/LoginTest.class
+com/allure/test/AddTest.class
